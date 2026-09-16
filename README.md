@@ -247,30 +247,7 @@ The average hospital length of stay was approximately **4.01 days**.
 
 - GitHub
 - VS Code
-Hospital-Healthcare-Analytics/
-│
-├── Python/
-│   └── Hospital analysis.ipynb
-│
-├── SQL/
-│   └── SQL analysis.sql
-│
-├── PowerBI/
-│   └── Hospital_dashboard.pbix
-│
-├── Cleaned_Data/
-│   ├── patients_clean.csv
-│   ├── doctors_clean.csv
-│   ├── departments_clean.csv
-│   ├── appointments_clean.csv
-│   ├── admissions_clean.csv
-│   └── treatments_clean.csv
-│
-├── Screenshots/
-│   └── hospital_dashboard.png
-│
-└── README.md
-
+- 
 ## Conclusion
 
 This project demonstrates an end-to-end Data Analyst workflow for healthcare data, covering data cleaning, exploratory analysis, SQL-based analysis, and interactive Power BI reporting.
