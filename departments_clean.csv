@@ -1,9 +1,0 @@
-﻿department_id,department_name,department_type,total_beds,available_beds,staff_count,occupied_bed,occupancy_rate,staff_per_bed
-101,Emergency,Emergency,40,12,42,28,70,1.05
-102,Cardiology,Specialty,35,10,38,25,71.42857143,1.085714286
-103,Orthopedics,Specialty,30,9,32,21,70,1.066666667
-104,Neurology,Specialty,25,7,29,18,72,1.16
-105,Pediatrics,Specialty,30,11,35,19,63.33333333,1.166666667
-106,General Medicine,General,50,18,55,32,64,1.1
-107,Dermatology,Specialty,20,8,24,12,60,1.2
-108,Gynecology,Specialty,30,10,34,20,66.66666667,1.133333333
