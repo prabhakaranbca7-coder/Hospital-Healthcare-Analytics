@@ -1,36 +1,34 @@
 # Hospital Healthcare Analytics
 
-## 📌 Project Overview
+## Project Overview
 
-This is an end-to-end healthcare analytics project designed to analyze hospital operations, appointments, admissions, treatments, patient information, and department performance.
+This is an end-to-end healthcare analytics project focused on analyzing hospital operations, patients, appointments, admissions, treatments, doctors, and department performance.
 
 The project follows a complete Data Analyst workflow:
 
 **Data Cleaning → Python/Pandas Analysis → PostgreSQL → SQL Analysis → Power BI Dashboard → Business Insights**
 
-The objective is to transform raw hospital data into meaningful insights that can support operational and management decisions.
+The objective is to transform hospital data into meaningful insights that can support operational and management decisions.
 
 ---
 
-## 🎯 Business Objectives
+## Business Objectives
 
-The project focuses on answering important healthcare business questions such as:
-
-- How many patients, appointments, admissions, and treatments are recorded?
-- Which departments receive the highest number of appointments?
-- What is the appointment completion rate?
-- Which departments have higher readmission rates?
-- What is the average patient waiting time?
-- What is the average length of hospital stay?
-- Which treatment types have higher average costs?
-- What are the most common treatment outcomes?
-- How does appointment volume change over time?
-- Which doctors have the highest appointment workload?
-- Which departments may require further operational attention?
+- Analyze patient and hospital activity.
+- Understand appointment performance and status.
+- Identify departments with high appointment and admission volumes.
+- Analyze appointment waiting time.
+- Measure appointment completion rate.
+- Analyze hospital readmission rates.
+- Understand average length of hospital stay.
+- Analyze treatment costs and treatment outcomes.
+- Evaluate department performance.
+- Analyze doctor workload.
+- Identify useful business insights from healthcare data.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The project contains six cleaned datasets:
 
@@ -43,40 +41,42 @@ The project contains six cleaned datasets:
 | Admissions | 9,000 | Hospital admission, discharge, department, and readmission information |
 | Treatments | 12,892 | Treatment details, costs, duration, diagnosis, and outcomes |
 
-**Total records analyzed: 87,972**
+**Total Records Analyzed: 87,972**
 
-> The datasets used in this portfolio project are cleaned/anonymized project data and should not contain real patient-identifying information.
+> The datasets used in this portfolio project are cleaned/anonymized project data and do not contain real patient-identifying information.
 
 ---
 
-## 🧹 Data Cleaning
+## Data Cleaning
 
 Data cleaning and preparation were performed using Python and Pandas.
 
 The cleaning process included:
 
-- Checking dataset dimensions
-- Checking missing values
-- Detecting duplicate records
-- Validating date fields
-- Checking invalid relationships between tables
-- Handling missing waiting-time values
-- Checking treatment-date validity
-- Calculating length of stay
-- Validating numerical ranges
-- Identifying statistical outliers
-- Checking categorical values
-- Creating cleaned datasets for further analysis
+- Dataset dimension checks
+- Missing-value analysis
+- Duplicate detection
+- Date validation
+- Data type validation
+- Numerical range validation
+- Categorical value validation
+- Invalid relationship checks
+- Missing waiting-time handling
+- Treatment-date validation
+- Length-of-stay calculation
+- Outlier identification
+- Dataset merging
+- Exporting cleaned datasets
 
 Outliers were identified during analysis and retained where they could represent genuine hospital cases rather than obvious data-entry errors.
 
 ---
 
-## 🐍 Python / Pandas Analysis
+## Python / Pandas Analysis
 
-Python was used for data cleaning, validation, exploratory analysis, and preparation of the datasets.
+Python and Pandas were used for data cleaning, validation, exploratory analysis, and data preparation.
 
-### Main Python tasks
+### Main Python Tasks
 
 - Data loading
 - Data profiling
@@ -88,23 +88,24 @@ Python was used for data cleaning, validation, exploratory analysis, and prepara
 - Correlation analysis
 - Dataset merging
 - Feature creation
-- Exporting cleaned datasets
+- Cleaned dataset generation
 
-### Example analyses
+### Analysis Performed
 
-- Patient age distribution
-- Insurance-type distribution
+- Patient age analysis
+- Insurance-type analysis
 - Appointment status analysis
-- Waiting-time analysis
+- Appointment waiting-time analysis
 - Department occupancy analysis
 - Admission analysis
 - Length-of-stay analysis
 - Treatment cost analysis
 - Treatment outcome analysis
+- Doctor and department analysis
 
 ---
 
-## 🗄️ PostgreSQL & SQL Analysis
+## PostgreSQL & SQL Analysis
 
 The cleaned datasets were imported into PostgreSQL for relational analysis.
 
@@ -112,7 +113,7 @@ The cleaned datasets were imported into PostgreSQL for relational analysis.
 
 **Database:** `Advanced_analysis`
 
-The project contains relationships between:
+### Table Relationships
 
 ```text
 patients ──< appointments >── doctors ──> departments
@@ -120,76 +121,3 @@ patients ──< admissions >──── doctors
                   │
                   ├──────────> departments
                   └──< treatments
-Hospital-Healthcare-Analytics/
-│
-├── Python/
-│   └── Hospital analysis.ipynb
-│
-├── SQL/
-│   └── SQL analysis.sql
-│
-├── PowerBI/
-│   └── Hospital_dashboard.pbix
-│
-├── Cleaned_Data/
-│   ├── patients_clean.csv
-│   ├── doctors_clean.csv
-│   ├── departments_clean.csv
-│   ├── appointments_clean.csv
-│   ├── admissions_clean.csv
-│   └── treatments_clean.csv
-│
-├── Screenshots/
-│   └── hospital_dashboard.png
-│
-└── README.md
-Raw Hospital Data
-       ↓
-Data Cleaning & Validation
-       ↓
-Python / Pandas Analysis
-       ↓
-Cleaned CSV Datasets
-       ↓
-PostgreSQL Database
-       ↓
-SQL Analysis
-       ↓
-Power BI Data Model
-       ↓
-DAX Measures
-       ↓
-Interactive Dashboard
-       ↓
-Business Insights
-
-
-## 💡 Key Business Insights
-
-### 1. Readmission
-
-Pediatrics recorded the highest department-level readmission rate at **10.49%**, with **1,296 admissions** and **136 readmissions**.
-
-### 2. Admissions
-
-General Medicine recorded the highest number of admissions with **1,374 admissions**.
-
-### 3. Appointment Completion
-
-The overall appointment completion rate was **77.94%**.
-
-### 4. Waiting Time
-
-The overall average appointment waiting time was approximately **28.75 minutes**.
-
-### 5. Length of Stay
-
-The average hospital length of stay was approximately **4.01 days**.
-
-### 6. Treatment Outcomes
-
-**Improved** was the most common treatment outcome, accounting for approximately **68.02%** of treatments.
-
-### 7. Treatment Cost
-
-**Medication** had the highest average treatment cost among the treatment types, at approximately **₹3,970.72**.
