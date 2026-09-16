@@ -115,9 +115,135 @@ The cleaned datasets were imported into PostgreSQL for relational analysis.
 
 ### Table Relationships
 
-```text
+text
 patients ──< appointments >── doctors ──> departments
 patients ──< admissions >──── doctors
                   │
                   ├──────────> departments
                   └──< treatments
+
+**## SQL Analysis Included**
+
+The SQL analysis focused on intermediate and advanced analytical concepts:
+
+- JOINs
+- Aggregations
+- GROUP BY
+- HAVING
+- Subqueries
+- CASE statements
+- Common Table Expressions (CTEs)
+- Window functions
+- Ranking
+- Percentage calculations
+- Conditional filtering
+- Department-level analysis
+- Doctor workload analysis
+- Readmission analysis
+- Treatment analysis
+- Monthly trend analysis
+
+A total of **30 SQL analytical questions** were completed, followed by a practical SQL assessment.
+
+---
+
+## Power BI Dashboard
+
+An interactive Power BI dashboard was created to present the major findings.
+
+### Key Performance Indicators
+
+- Total Patients — **12,000**
+- Total Appointments — **45,000**
+- Total Admissions — **9,000**
+- Total Treatments — **12,892**
+- Completion Rate — **77.94%**
+- Readmission Rate — **9.16%**
+- Average Waiting Time — **28.75 minutes**
+- Average Length of Stay — **4.01 days**
+- Average Treatment Cost — **₹3,925.36**
+
+### Dashboard Analysis
+
+The dashboard includes:
+
+- Appointment Status
+- Monthly Appointment Trend
+- Appointment Volume by Department
+- Admissions by Department
+- Readmission Rate by Department
+- Treatment Outcomes
+- Average Treatment Cost by Treatment Type
+- Average Waiting Time by Department
+- Average Length of Stay by Department
+- Treatment Outcome Distribution
+- Department Performance
+- Doctor Workload
+
+### Interactive Filters
+
+The dashboard contains slicers for:
+
+- Department
+- Appointment Status
+- Appointment Type
+- Appointment Date
+
+These filters allow users to interactively explore the hospital data.
+
+---
+
+## Key Business Insights
+
+### 1. Pediatrics Readmission Rate
+
+Pediatrics recorded the highest department-level readmission rate at **10.49%**, with **1,296 admissions** and **136 readmissions**.
+
+### 2. General Medicine Admissions
+
+General Medicine recorded the highest number of admissions with **1,374 admissions**.
+
+### 3. Appointment Completion Rate
+
+The overall appointment completion rate was **77.94%**.
+
+### 4. Average Waiting Time
+
+The overall average appointment waiting time was approximately **28.75 minutes**.
+
+### 5. Average Length of Stay
+
+The average hospital length of stay was approximately **4.01 days**.
+
+### 6. Treatment Outcomes
+
+**Improved** was the most common treatment outcome, accounting for approximately **68.02%** of treatments.
+
+### 7. Treatment Cost
+
+**Medication** had the highest average treatment cost among the treatment types, at approximately **₹3,970.72**.
+
+---
+
+## Tools & Technologies
+
+### Programming & Data Analysis
+
+- Python
+- Pandas
+- Jupyter Notebook
+
+### Database
+
+- PostgreSQL
+- pgAdmin
+
+### Data Visualization
+
+- Microsoft Power BI
+- DAX
+
+### Other Tools
+
+- GitHub
+- VS Code
