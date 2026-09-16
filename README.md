@@ -247,3 +247,75 @@ The average hospital length of stay was approximately **4.01 days**.
 
 - GitHub
 - VS Code
+Hospital-Healthcare-Analytics/
+│
+├── Python/
+│   └── Hospital analysis.ipynb
+│
+├── SQL/
+│   └── SQL analysis.sql
+│
+├── PowerBI/
+│   └── Hospital_dashboard.pbix
+│
+├── Cleaned_Data/
+│   ├── patients_clean.csv
+│   ├── doctors_clean.csv
+│   ├── departments_clean.csv
+│   ├── appointments_clean.csv
+│   ├── admissions_clean.csv
+│   └── treatments_clean.csv
+│
+├── Screenshots/
+│   └── hospital_dashboard.png
+│
+└── README.md
+## Project structure 
+Raw Hospital Data
+       ↓
+Data Cleaning & Validation
+       ↓
+Python / Pandas Analysis
+       ↓
+Cleaned CSV Datasets
+       ↓
+PostgreSQL Database
+       ↓
+SQL Analysis
+       ↓
+Power BI Data Model
+       ↓
+DAX Measures
+       ↓
+Interactive Dashboard
+       ↓
+Business Insights
+## Project Workflow 
+Raw Hospital Data
+       ↓
+Data Cleaning & Validation
+       ↓
+Python / Pandas Analysis
+       ↓
+Cleaned CSV Datasets
+       ↓
+PostgreSQL Database
+       ↓
+SQL Analysis
+       ↓
+Power BI Data Model
+       ↓
+DAX Measures
+       ↓
+Interactive Dashboard
+       ↓
+Business Insights
+## Conclusion
+
+This project demonstrates an end-to-end Data Analyst workflow for healthcare data, covering data cleaning, exploratory analysis, SQL-based analysis, and interactive Power BI reporting.
+
+The analysis provides insights into patient activity, appointment performance, hospital admissions, readmissions, treatment outcomes, waiting time, length of stay, treatment costs, department performance, and doctor workload.
+
+By combining **Python, Pandas, PostgreSQL, SQL, Power BI, and DAX**, the project transforms raw healthcare data into structured analysis and meaningful business insights.
+
+Overall, this project demonstrates practical skills in **data preparation, analytical SQL, data visualization, dashboard development, and business insight generation**.
