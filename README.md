@@ -270,46 +270,7 @@ Hospital-Healthcare-Analytics/
 │   └── hospital_dashboard.png
 │
 └── README.md
-## Project structure 
-Raw Hospital Data
-       ↓
-Data Cleaning & Validation
-       ↓
-Python / Pandas Analysis
-       ↓
-Cleaned CSV Datasets
-       ↓
-PostgreSQL Database
-       ↓
-SQL Analysis
-       ↓
-Power BI Data Model
-       ↓
-DAX Measures
-       ↓
-Interactive Dashboard
-       ↓
-Business Insights
-## Project Workflow 
-Raw Hospital Data
-       ↓
-Data Cleaning & Validation
-       ↓
-Python / Pandas Analysis
-       ↓
-Cleaned CSV Datasets
-       ↓
-PostgreSQL Database
-       ↓
-SQL Analysis
-       ↓
-Power BI Data Model
-       ↓
-DAX Measures
-       ↓
-Interactive Dashboard
-       ↓
-Business Insights
+
 ## Conclusion
 
 This project demonstrates an end-to-end Data Analyst workflow for healthcare data, covering data cleaning, exploratory analysis, SQL-based analysis, and interactive Power BI reporting.
