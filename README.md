@@ -122,7 +122,7 @@ patients ──< admissions >──── doctors
                   ├──────────> departments
                   └──< treatments
 
-**## SQL Analysis Included**
+## SQL Analysis Included
 
 The SQL analysis focused on intermediate and advanced analytical concepts:
 
