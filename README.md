@@ -162,3 +162,32 @@ DAX Measures
 Interactive Dashboard
        ↓
 Business Insights
+## 💡 Key Business Insights
+
+### 1. Readmission
+
+Pediatrics recorded the highest department-level readmission rate at **10.49%**, with **1,296 admissions** and **136 readmissions**.
+
+### 2. Admissions
+
+General Medicine recorded the highest number of admissions with **1,374 admissions**.
+
+### 3. Appointment Completion
+
+The overall appointment completion rate was **77.94%**.
+
+### 4. Waiting Time
+
+The overall average appointment waiting time was approximately **28.75 minutes**.
+
+### 5. Length of Stay
+
+The average hospital length of stay was approximately **4.01 days**.
+
+### 6. Treatment Outcomes
+
+**Improved** was the most common treatment outcome, accounting for approximately **68.02%** of treatments.
+
+### 7. Treatment Cost
+
+**Medication** had the highest average treatment cost among the treatment types, at approximately **₹3,970.72**.
