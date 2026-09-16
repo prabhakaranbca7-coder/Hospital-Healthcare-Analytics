@@ -1,0 +1,9 @@
+department_id,department_name,department_type,total_beds,available_beds,staff_count
+101,Emergency,Emergency,40,12,42
+102,Cardiology,Specialty,35,10,38
+103,Orthopedics,Specialty,30,9,32
+104,Neurology,Specialty,25,7,29
+105,Pediatrics,Specialty,30,11,35
+106,General Medicine,General,50,18,55
+107,Dermatology,Specialty,20,8,24
+108,Gynecology,Specialty,30,10,34
